@@ -3,5 +3,9 @@ name = "introllmops"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "google-cloud-aiplatform>=1.120.0",
+    "google-cloud-bigquery>=3.38.0",
+    "google-cloud-storage>=2.19.0",
+]
