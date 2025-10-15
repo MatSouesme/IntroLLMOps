@@ -1,0 +1,217 @@
+sentence,translation,translation_extra,messages
+He wrote down a long list of items.,"A long list of items, down he wrote.","A long list of items, down he wrote. Hmm.","[{'content': 'He wrote down a long list of items.', 'role': 'user'}
+ {'content': 'A long list of items, down he wrote.', 'role': 'assistant'}
+ {'content': 'A long list of items, down he wrote. Hmm.', 'role': 'assistant'}]"
+The duke left the park in a silver coach.,"Left the park in a silver coach, the duke did.","Left the park in a silver coach, the duke did.","[{'content': 'The duke left the park in a silver coach.', 'role': 'user'}
+ {'content': 'Left the park in a silver coach, the duke did.', 'role': 'assistant'}
+ {'content': 'Left the park in a silver coach, the duke did.', 'role': 'assistant'}]"
+A siege will crack the strong defense.,"Crack the strong defense, a siege will.","Crack the strong defense, a siege will.","[{'content': 'A siege will crack the strong defense.', 'role': 'user'}
+ {'content': 'Crack the strong defense, a siege will.', 'role': 'assistant'}
+ {'content': 'Crack the strong defense, a siege will.', 'role': 'assistant'}]"
+The odor of spring makes young hearts jump.,"Makes young hearts jump, the odor of spring does.","Makes young hearts jump, the odor of spring does.","[{'content': 'The odor of spring makes young hearts jump.', 'role': 'user'}
+ {'content': 'Makes young hearts jump, the odor of spring does.', 'role': 'assistant'}
+ {'content': 'Makes young hearts jump, the odor of spring does.', 'role': 'assistant'}]"
+A cold dip restores health and zest.,"Restores health and zest, a cold dip does.","Restores health and zest, a cold dip does.","[{'content': 'A cold dip restores health and zest.', 'role': 'user'}
+ {'content': 'Restores health and zest, a cold dip does.', 'role': 'assistant'}
+ {'content': 'Restores health and zest, a cold dip does.', 'role': 'assistant'}]"
+The wagon moved on well oiled wheels.,"On well-oiled wheels, the wagon moved.","On well-oiled wheels, the wagon moved.","[{'content': 'The wagon moved on well oiled wheels.', 'role': 'user'}
+ {'content': 'On well-oiled wheels, the wagon moved.', 'role': 'assistant'}
+ {'content': 'On well-oiled wheels, the wagon moved.', 'role': 'assistant'}]"
+Pitch the straw through the door of the stable.,"Through the door of the stable, pitch the straw, you must.","Hrrmmm. Through the door of the stable, pitch the straw, you must.","[{'content': 'Pitch the straw through the door of the stable.', 'role': 'user'}
+ {'content': 'Through the door of the stable, pitch the straw, you must.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. Through the door of the stable, pitch the straw, you must.', 'role': 'assistant'}]"
+Put the chart on the mantel and tack it down.,"On the mantel, put the chart, and tack it down, you must.","On the mantel, put the chart, and tack it down, you must.","[{'content': 'Put the chart on the mantel and tack it down.', 'role': 'user'}
+ {'content': 'On the mantel, put the chart, and tack it down, you must.', 'role': 'assistant'}
+ {'content': 'On the mantel, put the chart, and tack it down, you must.', 'role': 'assistant'}]"
+Beat the dust from the rug onto the lawn.,"Onto the lawn, beat the dust from the rug, you must.","Onto the lawn, beat the dust from the rug, you must.","[{'content': 'Beat the dust from the rug onto the lawn.', 'role': 'user'}
+ {'content': 'Onto the lawn, beat the dust from the rug, you must.', 'role': 'assistant'}
+ {'content': 'Onto the lawn, beat the dust from the rug, you must.', 'role': 'assistant'}]"
+Breathe deep and smell the piny air.,"Deep, breathe, and the piny air smell.","Deep, breathe, and the piny air smell. Yes, hrrmmm.","[{'content': 'Breathe deep and smell the piny air.', 'role': 'user'}
+ {'content': 'Deep, breathe, and the piny air smell.', 'role': 'assistant'}
+ {'content': 'Deep, breathe, and the piny air smell. Yes, hrrmmm.', 'role': 'assistant'}]"
+Read verse out loud for pleasure.,"For pleasure, read verse out loud, you must.","For pleasure, read verse out loud, you must.","[{'content': 'Read verse out loud for pleasure.', 'role': 'user'}
+ {'content': 'For pleasure, read verse out loud, you must.', 'role': 'assistant'}
+ {'content': 'For pleasure, read verse out loud, you must.', 'role': 'assistant'}]"
+The three story house was built of stone.,"Built of stone, the three-story house was.","Built of stone, the three-story house was. Yrsssss.","[{'content': 'The three story house was built of stone.', 'role': 'user'}
+ {'content': 'Built of stone, the three-story house was.', 'role': 'assistant'}
+ {'content': 'Built of stone, the three-story house was. Yrsssss.', 'role': 'assistant'}]"
+She was kind to sick old people.,"Kind to sick old people, she was.","Kind to sick old people, she was.","[{'content': 'She was kind to sick old people.', 'role': 'user'}
+ {'content': 'Kind to sick old people, she was.', 'role': 'assistant'}
+ {'content': 'Kind to sick old people, she was.', 'role': 'assistant'}]"
+A salt pickle tastes fine with ham.,"Tastes fine with ham, a salt pickle does.","Tastes fine with ham, a salt pickle does.","[{'content': 'A salt pickle tastes fine with ham.', 'role': 'user'}
+ {'content': 'Tastes fine with ham, a salt pickle does.', 'role': 'assistant'}
+ {'content': 'Tastes fine with ham, a salt pickle does.', 'role': 'assistant'}]"
+"Fish evade the net, and swim off.","Evade the net, fish do, and off they swim.","Hrrmmm. Evade the net, fish do, and off they swim. Yrsssss.","[{'content': 'Fish evade the net, and swim off.', 'role': 'user'}
+ {'content': 'Evade the net, fish do, and off they swim.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. Evade the net, fish do, and off they swim. Yrsssss.', 'role': 'assistant'}]"
+Dispense with a vest on a day like this.,"On a day like this, dispense with a vest, you must.","On a day like this, dispense with a vest, you must.","[{'content': 'Dispense with a vest on a day like this.', 'role': 'user'}
+ {'content': 'On a day like this, dispense with a vest, you must.', 'role': 'assistant'}
+ {'content': 'On a day like this, dispense with a vest, you must.', 'role': 'assistant'}]"
+Ducks fly north but lack a compass.,"Fly north but lack a compass, ducks do.","Hrrmmm. Fly north but lack a compass, ducks do. Yes, hrrrm.","[{'content': 'Ducks fly north but lack a compass.', 'role': 'user'}
+ {'content': 'Fly north but lack a compass, ducks do.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. Fly north but lack a compass, ducks do. Yes, hrrrm.', 'role': 'assistant'}]"
+The young kid jumped the rusty gate.,"The rusty gate, the young kid jumped.","The rusty gate, the young kid jumped.","[{'content': 'The young kid jumped the rusty gate.', 'role': 'user'}
+ {'content': 'The rusty gate, the young kid jumped.', 'role': 'assistant'}
+ {'content': 'The rusty gate, the young kid jumped.', 'role': 'assistant'}]"
+Fasten two pins on each side.,"On each side, fasten two pins, you must.","On each side, fasten two pins, you must. Hrmmm.","[{'content': 'Fasten two pins on each side.', 'role': 'user'}
+ {'content': 'On each side, fasten two pins, you must.', 'role': 'assistant'}
+ {'content': 'On each side, fasten two pins, you must. Hrmmm.', 'role': 'assistant'}]"
+It is a band of steel three inches wide.,"A band of steel, three inches wide, it is.","A band of steel, three inches wide, it is. Yes, hrrmmm.","[{'content': 'It is a band of steel three inches wide.', 'role': 'user'}
+ {'content': 'A band of steel, three inches wide, it is.', 'role': 'assistant'}
+ {'content': 'A band of steel, three inches wide, it is. Yes, hrrmmm.', 'role': 'assistant'}]"
+Sever the twine with a quick snip of the knife.,"With a quick snip of the knife, sever the twine, you must.","With a quick snip of the knife, sever the twine, you must.","[{'content': 'Sever the twine with a quick snip of the knife.', 'role': 'user'}
+ {'content': 'With a quick snip of the knife, sever the twine, you must.', 'role': 'assistant'}
+ {'content': 'With a quick snip of the knife, sever the twine, you must.', 'role': 'assistant'}]"
+Dull stories make her laugh.,"Make her laugh, dull stories do.","Make her laugh, dull stories do. Yes, hrrrm.","[{'content': 'Dull stories make her laugh.', 'role': 'user'}
+ {'content': 'Make her laugh, dull stories do.', 'role': 'assistant'}
+ {'content': 'Make her laugh, dull stories do. Yes, hrrrm.', 'role': 'assistant'}]"
+"Jerk the cord, and out tumbles the gold.","The cord jerk, and out the gold tumbles.","The cord jerk, and out the gold tumbles. Hrmmm.","[{'content': 'Jerk the cord, and out tumbles the gold.', 'role': 'user'}
+ {'content': 'The cord jerk, and out the gold tumbles.', 'role': 'assistant'}
+ {'content': 'The cord jerk, and out the gold tumbles. Hrmmm.', 'role': 'assistant'}]"
+The way to save money is not to spend much.,"Not to spend much, the way to save money is.","Not to spend much, the way to save money is.","[{'content': 'The way to save money is not to spend much.', 'role': 'user'}
+ {'content': 'Not to spend much, the way to save money is.', 'role': 'assistant'}
+ {'content': 'Not to spend much, the way to save money is.', 'role': 'assistant'}]"
+Cap the jar with a tight brass cover.,"With a tight brass cover, cap the jar, you must.","With a tight brass cover, cap the jar, you must.","[{'content': 'Cap the jar with a tight brass cover.', 'role': 'user'}
+ {'content': 'With a tight brass cover, cap the jar, you must.', 'role': 'assistant'}
+ {'content': 'With a tight brass cover, cap the jar, you must.', 'role': 'assistant'}]"
+Feel the heat of the weak dying flame.,"Feel the heat of the weak dying flame, you must.","Feel the heat of the weak dying flame, you must.","[{'content': 'Feel the heat of the weak dying flame.', 'role': 'user'}
+ {'content': 'Feel the heat of the weak dying flame, you must.', 'role': 'assistant'}
+ {'content': 'Feel the heat of the weak dying flame, you must.', 'role': 'assistant'}]"
+"Let it burn, it gives us warmth and comfort.","Let it burn, you must, warmth and comfort it gives us.","Let it burn, you must, warmth and comfort it gives us.","[{'content': 'Let it burn, it gives us warmth and comfort.', 'role': 'user'}
+ {'content': 'Let it burn, you must, warmth and comfort it gives us.', 'role': 'assistant'}
+ {'content': 'Let it burn, you must, warmth and comfort it gives us.', 'role': 'assistant'}]"
+Many hands help get the job done.,"Help get the job done, many hands do.","Help get the job done, many hands do. Hrmmm.","[{'content': 'Many hands help get the job done.', 'role': 'user'}
+ {'content': 'Help get the job done, many hands do.', 'role': 'assistant'}
+ {'content': 'Help get the job done, many hands do. Hrmmm.', 'role': 'assistant'}]"
+"Fly by night, and you waste little time.","To little time waste, fly by night, you must.","To little time waste, fly by night, you must. Yes, hrrrm.","[{'content': 'Fly by night, and you waste little time.', 'role': 'user'}
+ {'content': 'To little time waste, fly by night, you must.', 'role': 'assistant'}
+ {'content': 'To little time waste, fly by night, you must. Yes, hrrrm.', 'role': 'assistant'}]"
+The nozzle of the fire hose was bright brass.,"Bright brass, the nozzle of the fire hose was.","Bright brass, the nozzle of the fire hose was. Hmm.","[{'content': 'The nozzle of the fire hose was bright brass.', 'role': 'user'}
+ {'content': 'Bright brass, the nozzle of the fire hose was.', 'role': 'assistant'}
+ {'content': 'Bright brass, the nozzle of the fire hose was. Hmm.', 'role': 'assistant'}]"
+Drop the ashes on the worn old rug.,"On the worn old rug, drop the ashes, you must.","On the worn old rug, drop the ashes, you must.","[{'content': 'Drop the ashes on the worn old rug.', 'role': 'user'}
+ {'content': 'On the worn old rug, drop the ashes, you must.', 'role': 'assistant'}
+ {'content': 'On the worn old rug, drop the ashes, you must.', 'role': 'assistant'}]"
+"It snowed, rained, and hailed the same morning.","Snowed, rained, and hailed the same morning, it did.","Snowed, rained, and hailed the same morning, it did. Yes, hrrrm.","[{'content': 'It snowed, rained, and hailed the same morning.', 'role': 'user'}
+ {'content': 'Snowed, rained, and hailed the same morning, it did.', 'role': 'assistant'}
+ {'content': 'Snowed, rained, and hailed the same morning, it did. Yes, hrrrm.', 'role': 'assistant'}]"
+The first worm gets snapped early.,"Gets snapped early, the first worm does.","Gets snapped early, the first worm does.","[{'content': 'The first worm gets snapped early.', 'role': 'user'}
+ {'content': 'Gets snapped early, the first worm does.', 'role': 'assistant'}
+ {'content': 'Gets snapped early, the first worm does.', 'role': 'assistant'}]"
+You cannot brew tea in a cold pot.,"Brew tea in a cold pot, you cannot.","Brew tea in a cold pot, you cannot.","[{'content': 'You cannot brew tea in a cold pot.', 'role': 'user'}
+ {'content': 'Brew tea in a cold pot, you cannot.', 'role': 'assistant'}
+ {'content': 'Brew tea in a cold pot, you cannot.', 'role': 'assistant'}]"
+The doorknob was made of bright clean brass.,"Made of bright clean brass, the doorknob was.","Made of bright clean brass, the doorknob was. Yes, hrrrm.","[{'content': 'The doorknob was made of bright clean brass.', 'role': 'user'}
+ {'content': 'Made of bright clean brass, the doorknob was.', 'role': 'assistant'}
+ {'content': 'Made of bright clean brass, the doorknob was. Yes, hrrrm.', 'role': 'assistant'}]"
+His hip struck the knee of the next player.,"The knee of the next player, his hip struck.","The knee of the next player, his hip struck.","[{'content': 'His hip struck the knee of the next player.', 'role': 'user'}
+ {'content': 'The knee of the next player, his hip struck.', 'role': 'assistant'}
+ {'content': 'The knee of the next player, his hip struck.', 'role': 'assistant'}]"
+The corner store was robbed last night.,"Robbed last night, the corner store was.","Robbed last night, the corner store was.","[{'content': 'The corner store was robbed last night.', 'role': 'user'}
+ {'content': 'Robbed last night, the corner store was.', 'role': 'assistant'}
+ {'content': 'Robbed last night, the corner store was.', 'role': 'assistant'}]"
+A joy to every child is the swan boat.,"To every child, a joy, the swan boat is.","To every child, a joy, the swan boat is. Hmm.","[{'content': 'A joy to every child is the swan boat.', 'role': 'user'}
+ {'content': 'To every child, a joy, the swan boat is.', 'role': 'assistant'}
+ {'content': 'To every child, a joy, the swan boat is. Hmm.', 'role': 'assistant'}]"
+The baby puts his right foot in his mouth.,"In his mouth, the baby his right foot puts.","In his mouth, the baby his right foot puts.","[{'content': 'The baby puts his right foot in his mouth.', 'role': 'user'}
+ {'content': 'In his mouth, the baby his right foot puts.', 'role': 'assistant'}
+ {'content': 'In his mouth, the baby his right foot puts.', 'role': 'assistant'}]"
+The paper box is full of thumb tacks.,"Is full of thumb tacks, the paper box is.","Is full of thumb tacks, the paper box is.","[{'content': 'The paper box is full of thumb tacks.', 'role': 'user'}
+ {'content': 'Is full of thumb tacks, the paper box is.', 'role': 'assistant'}
+ {'content': 'Is full of thumb tacks, the paper box is.', 'role': 'assistant'}]"
+He ordered peach pie with ice cream.,"Peach pie with ice cream, he ordered.","Peach pie with ice cream, he ordered. Yrsssss.","[{'content': 'He ordered peach pie with ice cream.', 'role': 'user'}
+ {'content': 'Peach pie with ice cream, he ordered.', 'role': 'assistant'}
+ {'content': 'Peach pie with ice cream, he ordered. Yrsssss.', 'role': 'assistant'}]"
+A fence cuts through the corner lot.,"Cuts through the corner lot, a fence does.","Hrrmmm. Cuts through the corner lot, a fence does. Hmm.","[{'content': 'A fence cuts through the corner lot.', 'role': 'user'}
+ {'content': 'Cuts through the corner lot, a fence does.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. Cuts through the corner lot, a fence does. Hmm.', 'role': 'assistant'}]"
+He smoke a big pipe with strong contents.,"A big pipe with strong contents, he smoke.","A big pipe with strong contents, he smoke. Yrsssss.","[{'content': 'He smoke a big pipe with strong contents.', 'role': 'user'}
+ {'content': 'A big pipe with strong contents, he smoke.', 'role': 'assistant'}
+ {'content': 'A big pipe with strong contents, he smoke. Yrsssss.', 'role': 'assistant'}]"
+The chair looked strong but had no bottom.,"Strong but had no bottom, the chair looked.","Strong but had no bottom, the chair looked.","[{'content': 'The chair looked strong but had no bottom.', 'role': 'user'}
+ {'content': 'Strong but had no bottom, the chair looked.', 'role': 'assistant'}
+ {'content': 'Strong but had no bottom, the chair looked.', 'role': 'assistant'}]"
+The crooked maze failed to fool the mouse.,"Failed to fool the mouse, the crooked maze did.","Failed to fool the mouse, the crooked maze did. Yes, hrrrm.","[{'content': 'The crooked maze failed to fool the mouse.', 'role': 'user'}
+ {'content': 'Failed to fool the mouse, the crooked maze did.', 'role': 'assistant'}
+ {'content': 'Failed to fool the mouse, the crooked maze did. Yes, hrrrm.', 'role': 'assistant'}]"
+The cone costs five cents on Mondays.,"On Mondays, the cone, five cents, costs.","On Mondays, the cone, five cents, costs. Yes, hrrrm.","[{'content': 'The cone costs five cents on Mondays.', 'role': 'user'}
+ {'content': 'On Mondays, the cone, five cents, costs.', 'role': 'assistant'}
+ {'content': 'On Mondays, the cone, five cents, costs. Yes, hrrrm.', 'role': 'assistant'}]"
+The spot on the blotter was made by green ink.,"Made by green ink, the spot on the blotter was.","Hrrmmm. Made by green ink, the spot on the blotter was.","[{'content': 'The spot on the blotter was made by green ink.', 'role': 'user'}
+ {'content': 'Made by green ink, the spot on the blotter was.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. Made by green ink, the spot on the blotter was.', 'role': 'assistant'}]"
+The doctor cured him with these pills.,"With these pills, him, the doctor cured.","With these pills, him, the doctor cured.","[{'content': 'The doctor cured him with these pills.', 'role': 'user'}
+ {'content': 'With these pills, him, the doctor cured.', 'role': 'assistant'}
+ {'content': 'With these pills, him, the doctor cured.', 'role': 'assistant'}]"
+The hat brim was wide and too droopy.,"Wide and too droopy, the hat brim was.","Wide and too droopy, the hat brim was.","[{'content': 'The hat brim was wide and too droopy.', 'role': 'user'}
+ {'content': 'Wide and too droopy, the hat brim was.', 'role': 'assistant'}
+ {'content': 'Wide and too droopy, the hat brim was.', 'role': 'assistant'}]"
+Hoist the load to your left shoulder.,"Hoist the load to your left shoulder, you must.","Hoist the load to your left shoulder, you must.","[{'content': 'Hoist the load to your left shoulder.', 'role': 'user'}
+ {'content': 'Hoist the load to your left shoulder, you must.', 'role': 'assistant'}
+ {'content': 'Hoist the load to your left shoulder, you must.', 'role': 'assistant'}]"
+The term ended in late June that year.,"In late June that year, the term ended.","Hrrmmm. In late June that year, the term ended.","[{'content': 'The term ended in late June that year.', 'role': 'user'}
+ {'content': 'In late June that year, the term ended.', 'role': 'assistant'}
+ {'content': 'Hrrmmm. In late June that year, the term ended.', 'role': 'assistant'}]"
+The two met while playing on the sand.,"While playing on the sand, the two met.","While playing on the sand, the two met.","[{'content': 'The two met while playing on the sand.', 'role': 'user'}
+ {'content': 'While playing on the sand, the two met.', 'role': 'assistant'}
+ {'content': 'While playing on the sand, the two met.', 'role': 'assistant'}]"
+The screen before the fire kept in the sparks.,"Kept in the sparks, the screen before the fire did.","Kept in the sparks, the screen before the fire did. Hrmmm.","[{'content': 'The screen before the fire kept in the sparks.', 'role': 'user'}
+ {'content': 'Kept in the sparks, the screen before the fire did.', 'role': 'assistant'}
+ {'content': 'Kept in the sparks, the screen before the fire did. Hrmmm.', 'role': 'assistant'}]"
+The steady drip is worse than a drenching rain.,"Worse than a drenching rain, a steady drip is.","Worse than a drenching rain, a steady drip is. Yes, hrrrm.","[{'content': 'The steady drip is worse than a drenching rain.', 'role': 'user'}
+ {'content': 'Worse than a drenching rain, a steady drip is.', 'role': 'assistant'}
+ {'content': 'Worse than a drenching rain, a steady drip is. Yes, hrrrm.', 'role': 'assistant'}]"
+The child crawled into the dense grass.,"Into the dense grass, the child crawled.","Into the dense grass, the child crawled.","[{'content': 'The child crawled into the dense grass.', 'role': 'user'}
+ {'content': 'Into the dense grass, the child crawled.', 'role': 'assistant'}
+ {'content': 'Into the dense grass, the child crawled.', 'role': 'assistant'}]"
+Act on these orders with great speed.,"With great speed, on these orders, act.","With great speed, on these orders, act.","[{'content': 'Act on these orders with great speed.', 'role': 'user'}
+ {'content': 'With great speed, on these orders, act.', 'role': 'assistant'}
+ {'content': 'With great speed, on these orders, act.', 'role': 'assistant'}]"
+Light maple makes for a swell room.,"Light maple makes for a swell room, it does.","Light maple makes for a swell room, it does.","[{'content': 'Light maple makes for a swell room.', 'role': 'user'}
+ {'content': 'Light maple makes for a swell room, it does.', 'role': 'assistant'}
+ {'content': 'Light maple makes for a swell room, it does.', 'role': 'assistant'}]"
+Help the weak to preserve their strength.,"To preserve their strength, help the weak, you must.","To preserve their strength, help the weak, you must. Yes, hrrmmm.","[{'content': 'Help the weak to preserve their strength.', 'role': 'user'}
+ {'content': 'To preserve their strength, help the weak, you must.', 'role': 'assistant'}
+ {'content': 'To preserve their strength, help the weak, you must. Yes, hrrmmm.', 'role': 'assistant'}]"
+A wisp of cloud hung in the blue air.,"In the blue air, a wisp of cloud hung.","In the blue air, a wisp of cloud hung.","[{'content': 'A wisp of cloud hung in the blue air.', 'role': 'user'}
+ {'content': 'In the blue air, a wisp of cloud hung.', 'role': 'assistant'}
+ {'content': 'In the blue air, a wisp of cloud hung.', 'role': 'assistant'}]"
+Use a pencil to write the first draft.,"To write the first draft, use a pencil, you must.","To write the first draft, use a pencil, you must. Yes, hrrmmm.","[{'content': 'Use a pencil to write the first draft.', 'role': 'user'}
+ {'content': 'To write the first draft, use a pencil, you must.', 'role': 'assistant'}
+ {'content': 'To write the first draft, use a pencil, you must. Yes, hrrmmm.', 'role': 'assistant'}]"
+This strong arm shall shield your honor.,"Shield your honor, this strong arm shall.","Shield your honor, this strong arm shall.","[{'content': 'This strong arm shall shield your honor.', 'role': 'user'}
+ {'content': 'Shield your honor, this strong arm shall.', 'role': 'assistant'}
+ {'content': 'Shield your honor, this strong arm shall.', 'role': 'assistant'}]"
+Type out three lists of orders.,"Type out three lists of orders, you must.","Type out three lists of orders, you must.","[{'content': 'Type out three lists of orders.', 'role': 'user'}
+ {'content': 'Type out three lists of orders, you must.', 'role': 'assistant'}
+ {'content': 'Type out three lists of orders, you must.', 'role': 'assistant'}]"
+A smatter of French is worse than none.,"Worse than none, a smatter of French is.","Worse than none, a smatter of French is.","[{'content': 'A smatter of French is worse than none.', 'role': 'user'}
+ {'content': 'Worse than none, a smatter of French is.', 'role': 'assistant'}
+ {'content': 'Worse than none, a smatter of French is.', 'role': 'assistant'}]"
+The pipe ran almost the length of the ditch.,"Almost the length of the ditch, the pipe ran.","Almost the length of the ditch, the pipe ran.","[{'content': 'The pipe ran almost the length of the ditch.', 'role': 'user'}
+ {'content': 'Almost the length of the ditch, the pipe ran.', 'role': 'assistant'}
+ {'content': 'Almost the length of the ditch, the pipe ran.', 'role': 'assistant'}]"
+Stop and stare at the hard working man.,"At the hardworking man, stop and stare, you must.","At the hardworking man, stop and stare, you must.","[{'content': 'Stop and stare at the hard working man.', 'role': 'user'}
+ {'content': 'At the hardworking man, stop and stare, you must.', 'role': 'assistant'}
+ {'content': 'At the hardworking man, stop and stare, you must.', 'role': 'assistant'}]"
+The thaw came early and freed the stream.,"Early, the thaw came, and the stream, freed.","Early, the thaw came, and the stream, freed. Yes, hrrmmm.","[{'content': 'The thaw came early and freed the stream.', 'role': 'user'}
+ {'content': 'Early, the thaw came, and the stream, freed.', 'role': 'assistant'}
+ {'content': 'Early, the thaw came, and the stream, freed. Yes, hrrmmm.', 'role': 'assistant'}]"
+Add the store's account to the last cent.,"To the last cent, the store's account add.","Hrrmmm. To the last cent, the store's account add.","[{'content': ""Add the store's account to the last cent."", 'role': 'user'}
+ {'content': ""To the last cent, the store's account add."", 'role': 'assistant'}
+ {'content': ""Hrrmmm. To the last cent, the store's account add."", 'role': 'assistant'}]"
+The desk and both chairs were painted tan.,"Painted tan, the desk and both chairs were.","Painted tan, the desk and both chairs were.","[{'content': 'The desk and both chairs were painted tan.', 'role': 'user'}
+ {'content': 'Painted tan, the desk and both chairs were.', 'role': 'assistant'}
+ {'content': 'Painted tan, the desk and both chairs were.', 'role': 'assistant'}]"
+The clothes dried on a thin wooden rack.,"On a thin wooden rack, the clothes dried.","On a thin wooden rack, the clothes dried.","[{'content': 'The clothes dried on a thin wooden rack.', 'role': 'user'}
+ {'content': 'On a thin wooden rack, the clothes dried.', 'role': 'assistant'}
+ {'content': 'On a thin wooden rack, the clothes dried.', 'role': 'assistant'}]"
+The horse balked and threw the tall rider.,"Threw the tall rider, the horse balked and did.","Threw the tall rider, the horse balked and did.","[{'content': 'The horse balked and threw the tall rider.', 'role': 'user'}
+ {'content': 'Threw the tall rider, the horse balked and did.', 'role': 'assistant'}
+ {'content': 'Threw the tall rider, the horse balked and did.', 'role': 'assistant'}]"
+The stray cat gave birth to kittens.,"Gave birth to kittens, the stray cat did.","Gave birth to kittens, the stray cat did.","[{'content': 'The stray cat gave birth to kittens.', 'role': 'user'}
+ {'content': 'Gave birth to kittens, the stray cat did.', 'role': 'assistant'}
+ {'content': 'Gave birth to kittens, the stray cat did.', 'role': 'assistant'}]"
+Women form less than half of the group.,"Less than half of the group, women form.","Less than half of the group, women form.","[{'content': 'Women form less than half of the group.', 'role': 'user'}
+ {'content': 'Less than half of the group, women form.', 'role': 'assistant'}
+ {'content': 'Less than half of the group, women form.', 'role': 'assistant'}]"
