@@ -208,3 +208,5 @@ __marimo__/
 .venv/
 .env
 .env
+google-cloud-sdk/
+google-cloud-cli-darwin-arm.tar.gz
