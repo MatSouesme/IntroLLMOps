@@ -1,55 +1,61 @@
-from kfp.dsl import component, OutputPath
+"""Data transformation component for Vertex AI pipeline."""
+
+from kfp.dsl import OutputPath, component
+
 
 @component(
-    base_image="python:3.11",
+    base_image="python:3.11-slim",
     packages_to_install=[
-        "pandas==2.2.3",
-        "google-cloud-storage==2.19.0",
-        "loguru==0.7.2",
+        "pandas>=2.3.2",
+        "datasets==4.0.0",
+        "gcsfs",
     ],
 )
-def data_transformation(
-    input_csv_gcs_uri: str,
-    train_out_path: OutputPath(str),
-    test_out_path: OutputPath(str),
-    text_col: str = "sentence",
-    target_col: str = "translation",
-    test_size: float = 0.1,
-    seed: int = 42,
-):
-    import os, json, random                                 # ← ICI
-    from loguru import logger
+def data_transformation_component(
+    raw_dataset_uri: str,
+    train_test_split_ratio: float,
+    train_dataset: OutputPath("Dataset"),  # type: ignore
+    test_dataset: OutputPath("Dataset"),  # type: ignore
+) -> None:
+    """Format and split Yoda Sentences for Phi-3 fine-tuning."""
+    import logging
+
     import pandas as pd
-    from io import BytesIO
-    from google.cloud import storage
+    from datasets import Dataset
 
-    def parse_gs_uri(gs_uri: str):
-        assert gs_uri.startswith("gs://"), f"URI attendu gs://..., reçu: {gs_uri}"
-        p = gs_uri[5:]; bucket, _, blob = p.partition("/"); return bucket, blob
+    def format_dataset_to_phi_messages(dataset: Dataset) -> Dataset:
+        """Format dataset to Phi messages structure."""
 
-    bucket, blob = parse_gs_uri(input_csv_gcs_uri)
-    logger.info(f"Downloading CSV from gs://{bucket}/{blob}")
-    data = storage.Client().bucket(bucket).blob(blob).download_as_bytes()
-    df = pd.read_csv(BytesIO(data))
+        def format_dataset(examples):
+            """Format a single example to Phi messages structure."""
+            converted_sample = [
+                {"role": "user", "content": examples["prompt"]},
+                {"role": "assistant", "content": examples["completion"]},
+            ]
+            return {"messages": converted_sample}
 
-    if text_col not in df.columns: raise ValueError(f"Colonne texte '{text_col}' absente. Colonnes: {list(df.columns)}")
-    if target_col not in df.columns: raise ValueError(f"Colonne cible '{target_col}' absente. Colonnes: {list(df.columns)}")
+        return (
+            dataset.rename_column("sentence", "prompt")
+            .rename_column("translation_extra", "completion")
+            .map(format_dataset)
+            .remove_columns(["prompt", "completion", "translation"])
+        )
 
-    records = [
-        [{"role":"user","content":str(row[text_col])},
-         {"role":"assistant","content":str(row[target_col])}]
-        for _, row in df.iterrows()
-    ]
-    n = len(records); logger.info(f"Records: {n}")
+    logging.basicConfig(level=logging.INFO)
+    logger = logging.getLogger(__name__)
+    logger.info("Starting data transformation process...")
 
-    rnd = random.Random(seed); idx = list(range(n)); rnd.shuffle(idx)
-    cut = int(n*(1-test_size)); train_idx, test_idx = idx[:cut], idx[cut:]
-    logger.info(f"Split -> train={len(train_idx)} test={len(test_idx)}")
+    logger.info(f"Reading from {raw_dataset_uri}")
+    dataset = Dataset.from_pandas(pd.read_csv(raw_dataset_uri))
 
-    for p in (train_out_path, test_out_path): os.makedirs(os.path.dirname(p), exist_ok=True)
-    with open(train_out_path,"w",encoding="utf-8") as f:
-        for i in train_idx: f.write(json.dumps(records[i], ensure_ascii=False)+"\n")
-    with open(test_out_path,"w",encoding="utf-8") as f:
-        for i in test_idx: f.write(json.dumps(records[i], ensure_ascii=False)+"\n")
+    logger.info("Formatting and splitting dataset...")
+    formatted_dataset = format_dataset_to_phi_messages(dataset)
+    split_dataset = formatted_dataset.train_test_split(test_size=train_test_split_ratio)
 
-    logger.success("✅ Data transformation completed — Yoda dataset ready!")
+    logger.info(f"Writing train dataset to {train_dataset}...")
+    split_dataset["train"].to_pandas().to_csv(train_dataset, index=False)
+
+    logger.info(f"Writing test dataset to {test_dataset}...")
+    split_dataset["test"].to_pandas().to_csv(test_dataset, index=False)
+
+    logger.info("Data transformation process completed successfully")
